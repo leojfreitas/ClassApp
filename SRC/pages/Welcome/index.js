@@ -17,6 +17,7 @@ export default function Welcome() {
           <Image
           source={require('../../assets/logo.png')}
           style={{width: '100%'}}
+          resizeMode = "contain"
           
           />
           <View style={styles.containerForm}>
